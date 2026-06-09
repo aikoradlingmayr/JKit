@@ -1,0 +1,5 @@
+{
+  "version": "0.0.5",
+  "notes": "Fix-version \u2192 milestone mapping now finds global FogBugz milestones (release milestones like '26.6.0 (Ugarit)' aren't tied to a project) and matches the codename case-insensitively. Added a default Jira \u2192 FogBugz component mapping: FlexCell \u2192 FluxRobot.",
+  "url": ""
+}
