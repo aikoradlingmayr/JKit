@@ -1,5 +1,5 @@
 {
-  "version": "0.0.8",
-  "notes": "A failed update check now shows a dismissible banner with the exact reason (e.g. proxy blocking the manifest URL) instead of failing silently \u2014 previously a blocked check looked identical to 'no update available'. Clearer error texts for the update check: they now name the manifest URL and distinguish unreachable / HTTP error / malformed manifest. The update banner's 'Open download folder' button works again \u2014 the published manifest was missing the SharePoint link. Field test of the update notification: if you can read this in the app, the banner worked. If a colleague doesn't see the banner, ask them for the new error banner text (or Changelog \u2192 Check for updates).",
+  "version": "0.0.9",
+  "notes": "The update banner is a single line again \u2014 version and download button only. The full what's-new text lives in this Changelog tab; detailed text in the banner only appears when the update check fails.",
   "url": "https://trumpf.sharepoint.com/:f:/r/sites/TecZoneBendDEV/Freigegebene%20Dokumente/Tools/JKit?csf=1&web=1&e=uxJch3"
 }
