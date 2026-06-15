@@ -1,5 +1,5 @@
 {
-  "version": "0.0.9",
-  "notes": "The update banner is a single line again \u2014 version and download button only. The full what's-new text lives in this Changelog tab; detailed text in the banner only appears when the update check fails.",
+  "version": "0.0.13",
+  "notes": "Sync conflict dialog: each side now shows who last changed the value and when, under the Jira and FogBugz columns \u2014 so the 'suggested' master (most-recently-changed wins) is backed by visible evidence you can check before applying. Fixed the FogBugz 'last changed' detection: status, assignee and fix-version changes were never recognised (the matcher used the wrong field-change wording), so only the Jira side showed a date/author. Status and assignee now key off the FogBugz event verb, and fix-version off the 'Milestone' change text, matching the legacy tool.",
   "url": "https://trumpf.sharepoint.com/:f:/r/sites/TecZoneBendDEV/Freigegebene%20Dokumente/Tools/JKit?csf=1&web=1&e=uxJch3"
 }
