@@ -1,5 +1,5 @@
 {
-  "version": "0.0.14",
-  "notes": "Sync: discovering pairs now shows a progress bar with status (an indeterminate sweep while searching Jira, then a count as each pair is resolved). Sync: applying a master no longer re-runs the whole discovery. Only the pair(s) you just synced are refreshed in place; everything else \u2014 and your selection \u2014 stays put. Sync status mapping: a Jira issue in 'Testing' now counts as in agreement with a Closed/Resolved FogBugz case (testing = closed). Jira 'Done' now also matches the resolved-then-closed FogBugz states like 'Closed (Implemented)' and 'Closed (Fixed)', not just the 'Resolved (\u2026)' ones. Sync assignee mapping: FogBugz cases owned by the TMM team no longer show a false assignee conflict against the shared TMM Jira account (noreply@trumpf.com). Configurable via [assignee] tmm_jira_email.",
+  "version": "0.0.15",
+  "notes": "Tabs keep their state. Switching away from a tab and back no longer resets it \u2014 a fetched preview, discovered sync pairs, or half-filled inputs stay as you left them. Sync now compares both systems. In addition to Jira issues with the chosen fix version, it also lists the FogBugz cases in the matching milestone and merges in any whose Jira issue has a different fix version \u2014 so a case moved on only one side is no longer invisible. FogBugz cases in the milestone with no usable Jira link are listed separately.",
   "url": "https://trumpf.sharepoint.com/:f:/r/sites/TecZoneBendDEV/Freigegebene%20Dokumente/Tools/JKit?csf=1&web=1&e=uxJch3"
 }
